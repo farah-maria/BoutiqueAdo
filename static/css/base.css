@@ -27,6 +27,11 @@ body {
     width: fit-content;
 }
 
+
+.display-4 {
+    padding-top: 30%;
+}
+
 .shop-now-button {
     background: black;
     color: white;
@@ -54,6 +59,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
 }
 
 /* --------------------------------- Media queries */
