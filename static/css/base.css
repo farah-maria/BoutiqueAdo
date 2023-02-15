@@ -27,6 +27,10 @@ body {
     width: fit-content;
 }
 
+.display-4 {
+    margin-top: 20vh;
+}
+
 .shop-now-button {
     background: black;
     color: white;
@@ -289,10 +293,6 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
-    }
-
-    .display-4 {
-        padding-top: -20vh;
     }
 
     .display-4.logo-font.text-black {

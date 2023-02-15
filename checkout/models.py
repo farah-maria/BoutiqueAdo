@@ -1,6 +1,3 @@
-from django.db import models
-
-# Create your models here.
 import uuid
 
 from django.db import models
@@ -10,7 +7,6 @@ from django.conf import settings
 from django_countries.fields import CountryField
 
 from products.models import Product
-
 
 
 class Order(models.Model):
