@@ -3,7 +3,10 @@ confusable-homoglyphs==3.2.0
 Django==3.2
 django-allauth==0.41.0
 django-countries==7.5.1
+django-crispy-forms==2.0
 django-photologue==3.15.1
+django-profile==0.0.3
+django-profiles==0.2
 django-registration==3.3
 django-sortedm2m==3.1.1
 ExifRead==3.0.0
