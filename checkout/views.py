@@ -1,6 +1,7 @@
 from django.shortcuts import (
     render, redirect, reverse, get_object_or_404, HttpResponse
 )
+
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -142,8 +143,8 @@ def checkout(request):
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': 'pk_test_51McZxlHUtZ7GbUgliQQz7HgS1yLQb6gUI70eEApKzvGbI2tzuQnv8xdjI3VDVXkObHwhQSkqdKbuC4TmAgRM8fi700Omr28vol',
-        'client_secret': 'test client secret',
+        'stripe_public_key': stripe_public_key,
+        'client_secret': intent.client_secret,
     }
 
     return render(request, template, context)
